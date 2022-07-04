@@ -12,7 +12,7 @@ const SearchBar = ({ value, setValue, onSearch }) => {
         onChange={(e) => setValue(e.target.value)}
         type="text"
         className="input-search"
-        placeholder="Type to Search..."
+        placeholder="Search by character or planet..."
         onKeyPress={(e) => e.key === "Enter" && onSearch(e)}
       />
     </div>
